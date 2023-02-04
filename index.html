@@ -5,6 +5,11 @@
 
 img {
   max-width: 100%;
+	float: left;
+	border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
 }
 body{
 	
@@ -12,7 +17,8 @@ body{
 	background:transparent !important);
 }
 
-ul {
+
+	ul {
   list-style: none;
   padding: 0;
   font: .9em Arial;
@@ -37,165 +43,29 @@ float: right;
       margin-right: 0;
 			
     }
-    
-    a {
-      background: #333;
-      text-align: center;
-      color: #fff;
-      padding: 5px 30px;
-      text-decoration: none;
-    }
-		 .price {
-      margin: 0 0 10px;
-    }
-    h3{color:#fff}
-		p {color:#fff}
-		.box{}
 		
-		
-		
-		
-<!-- HTML !-->
-<button class="button-75" role="button"><span class="text">Button 75</span></button>
 
-/* CSS */
-.button-75 {
-  align-items: center;
-  background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
-  border: 0;
-  border-radius: 10px;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  font-family: "Codec cold",sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  height: 54px;
-  justify-content: center;
-  letter-spacing: .4px;
-  line-height: 1;
-  max-width: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 3px;
-  text-decoration: none;
-  text-transform: uppercase;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
-.button-75:active {
-  outline: 0;
-}
-
-.button-75:hover {
-  outline: 0;
-}
-
-.button-75 span {
-  transition: all 200ms;
-}
-
-.button-75:hover span {
-  transform: scale(.9);
-  opacity: .75;
-}
-
-@media screen and (max-width: 991px) {
-  .button-75 {
-    font-size: 15px;
-    height: 50px;
-  }
-
-  .button-75 span {
-    line-height: 50px;
-  }
-}
 </style>
 <html dir="rtl">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<center>
-	
-	<h2 style="color:#fff">متجر توكا ستور</h2>
-<button class="button-75" role="button"><span class="text">قسم السوشل ميديا</span></button>
-</center>
-<ul>
-  <li class="box">
-    <img src="https://www.pngplay.com/wp-content/uploads/7/Netflix-Logo-Transparent-Background.png">
-    <h3>نتفلكس لمدة سنة </h3>
-    <p class="price">٢٥ ر.س</p>
-    <a href="https://t.me/S_T_Abot?start=P1_0">شراء الان</a>
-  </li>
-  <li class="box">
-    <img src="https://www.freepnglogos.com/uploads/youtube-play-red-logo-png-transparent-background-6.png">
-    <h3>يوتيوب بريميوم</h3>
-    <p class="price">٦٧ ر.س</p>
-    <a href="">شراء الان</a>
-  </li>
-</ul>
-<center>
-	
-<h1 style="color:#fff">قسم الاشتراكات المدفوعة</h1>
-	
-</center>
+
 
 <ul>
-<li>
-		<img src="https://archive.org/download/moviebox-pro-featured-image/moviebox-pro-featured-image.png">
-    <h3>اشتراك موفي بوكس برو</h3>
-    <p class="price">٦٠ ر.س</p>
-    <a href="">شراء الان</a>
-  </li>
-  <li>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Canva_icon_2021.svg/2048px-Canva_icon_2021.svg.png">
-    <h3>اشتراك كانفا برو 6 اشهر</h3>
-    <p class="price">٢٠ ر.س</p>
-    <a href="">شراء الان</a>
-  </li><li>
-		    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Canva_icon_2021.svg/2048px-Canva_icon_2021.svg.png">
-    <h3>اشتراك كانفا برو 1 سنة</h3>
-    <p class="price">٥٥ ر.س</p>
-    <a href="">شراء الان</a>
-  </li>
-  <li>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Canva_icon_2021.svg/2048px-Canva_icon_2021.svg.png">
-    <h3>اشتراك كانفا برو 3 سنوات</h3>
-    <p class="price">٩٠ ر.س</p>
-    <a href="">شراء الان</a>
-  </li>	
+	
+	<li>
+	<img src="https://i.ytimg.com/vi/IMXx1lh0EP8/movieposter.jpg" />
+	<p>movies oner vinos</p>
+	<a href="https://t.me/S_T_Abot?start=P1_0"><button>view</button></a>
+	</li>
+	<li>
+	<img src="https://i.ytimg.com/vi/IMXx1lh0EP8/movieposter.jpg" />
+	<p>movies oner vinos</p>
+	<a href="https://t.me/S_T_Abot?start=P1_1_0_0"><button>buy view </button></a>
+</li>		
 	
 </ul>
-<script>
-	let cards = document.querySelectorAll('.box')
-    
-function liveSearch() {
-    let search_query = document.getElementById("searchbox").value;
-    
-    //Use innerText if all contents are visible
-    //Use textContent for including hidden elements
-    for (var i = 0; i < cards.length; i++) {
-        if(cards[i].textContent.toLowerCase()
-                .includes(search_query.toLowerCase())) {
-            cards[i].classList.remove("is-hidden");
-        } else {
-            cards[i].classList.add("is-hidden");
-        }
-    }
-}
-
-//A little delay
-let typingTimer;               
-let typeInterval = 500;  
-let searchInput = document.getElementById('searchbox');
-
-searchInput.addEventListener('keyup', () => {
-    clearTimeout(typingTimer);
-    typingTimer = setTimeout(liveSearch, typeInterval);
-	});
 	
-</script>
+
+	
 </html>
