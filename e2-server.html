@@ -1,7 +1,33 @@
-	<li>
-	<img src="https://i.ytimg.com/vi/IMXx1lh0EP8/movieposter.jpg" />
-	<p>movies oner vinos</p>
-	<a href="https://t.me/S_T_Abot?start=P1_0"><button>view</button></a>
+
+<li>
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPs4k6ZxnbN5DunwufuUrC7ZCFXRmRSOTBoA&usqp=CAU" />
+	<p>Prison Break</p>
+<div class="btn-group">
+<div class="w3-container">
+<center>
+<div class="w3-bar w3-black">
+  <button class="w3-bar-item w3-button" onclick="openCity('prh')">احداث المسلسل</button>
+  <button class="w3-bar-item w3-button" onclick="openCity('prn')">الانتاج</button>
+  <button class="w3-bar-item w3-button" onclick="openCity('prm')">عدد المواسم</button>
+<a href="g"><button class="w3-bar-item w3-button" onclick="openCity('link')"> مشاهدة</button></a>
+</div>
+
+<div id="prh" class="w3-container city">
+  <h2 style="font-size:11px;">احداث المسلسل</h2>
+  <p style="font-size:10px;">تدور قصة المسلسل حول أخوين، أحدهما حكم عليه بالإعدام لجريمة لم يرتكبها، والآخر يرسم خطة مفصلة لمساعدة أخيه على الفرار من السجن ومسح سجله. تم إنتاج المسلسل من قبل شركة أدلستين-باروس للإنتاج، بالتعاون مع شركة أوريجينال فيلم، وشركة تلفزيون فوكس للقرن العشرين.</p>
+</div>
+
+<div id="prn" class="w3-container city" style="display:none">
+  <h2>Paris</h2>
+  <p>Paris is the capital of France.</p> 
+</div>
+
+<div id="prm" class="w3-container city" style="display:none">
+  <h2>Tokyo</h2>
+  <p>Tokyo is the capital of Japan.</p>
+	
+</div>
+</center>	
 	</li>
 	<li>
 	<img src="https://i.ytimg.com/vi/IMXx1lh0EP8/movieposter.jpg" />
@@ -19,3 +45,20 @@
 	<a href="https://t.me/S_T_Abot?start=P1_0"><button>view</button></a>
 </li>
 </ul>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+	
+
+<script>
+function openCity(cityName) {
+  var i;
+  var x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  document.getElementById(cityName).style.display = "block";  
+}
+</script>
+
+</body>
