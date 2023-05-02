@@ -1,0 +1,16 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "منتج 1",
+      "description": "وصف المنتج 1",
+      "price": 100
+    },
+    {
+      "id": 2,
+      "title": "منتج 2",
+      "description": "وصف المنتج 2",
+      "price": 200
+    }
+  ]
+}
